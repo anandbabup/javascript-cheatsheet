@@ -1,7 +1,8 @@
 # javascript-cheatsheet
 
-Creating observable using javascript
+Creating Observable using javascript
 
+```sh
 class Observable {
     constructor(functionThatTakesObserver){
       this._functionThatTakesObserver = functionThatTakesObserver;
@@ -31,3 +32,5 @@ let myObserver = {
 }
 
 myObservable.subscribe(myObserver)
+
+```
